@@ -41,10 +41,10 @@ devem ser suficientes para execução.
  
  - execute a imagem 
    (para o sistema em modo de desenvolvimento)
-   $ docker run -p **porta local**:3000 -d **tagname**
+   $ docker run -p **porta_local**:3000 -d **tagname**
 
    (para o sistema em modo de produção)
-   $ docker run -p **porta local**:80 -d **tagname**
+   $ docker run -p **porta_local**:80 -d **tagname**
 
 O sistema pode ser mudado do modo de desenvolvimento para o modo de produção
 modificando o arquivo .env em NODE_ENVIRONMENT=development para 
@@ -56,7 +56,7 @@ deve ser composta de até 3 ingredientes **em inglês**)
 
  - execute um curl ou acesse via navegador
    (caso utilizando a imagem docker)
-   http://**host**:**porta local**/recipes/?i=**item1**,**item2**,**item3**
+   http://**host**:**porta_local**/recipes/?i=**item1**,**item2**,**item3**
 
    (caso executando em modo de desenvolvimento em execução direta)
    http://**host**:3000/recipes/?i=**item1**,**item2**,**item3**
