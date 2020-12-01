@@ -1,4 +1,4 @@
-#teste Delivery Much
+# Teste Delivery Much
 
 Olá, esse é o teste solicitado como prova técnica para a vaga de dev
 Oferecida pelo Delivery Much. Seguem instruções de execução tanto
@@ -10,7 +10,7 @@ dependências de código estão inseridas no arquivo package.json
 Faça o download ou clone o repositório para qualquer **diretório** e 
 acesse o diretório via linha de comando ($ cd **diretório**)
 
-##Para execução direta:
+## Para execução direta:
 
 - instale os pacotes de dependências utilizando
    $ npm install
@@ -18,12 +18,12 @@ acesse o diretório via linha de comando ($ cd **diretório**)
 - execute a aplicação utilizando
    $ node index
 
-###Para execução do linter:
+### Para execução do linter:
 
 - execute 
    $ npm run pretest
 
-###Para execução do teste:
+### Para execução do teste:
 
 - execute 
    $ npm run test
@@ -31,7 +31,7 @@ acesse o diretório via linha de comando ($ cd **diretório**)
   (observe que esse teste pode falhar caso a resposta para as receitas mude. Caso isso aconteça, alterar o conteúdo de **exp.json** para o retorno
   esperado do teste)
 
-##Para execução via docker:
+## Para execução via docker:
 Para conveniência, a aplicação é acompanhada de um arquivo Dockerfile
 e um arquivo .dotignore. As configurações básicas dentro desses arquivos
 devem ser suficientes para execução.
@@ -50,7 +50,7 @@ O sistema pode ser mudado do modo de desenvolvimento para o modo de produção
 modificando o arquivo .env em NODE_ENVIRONMENT=development para 
 NODE_ENVIRONMENT=production. O token de acesso GIPHY_API_KEY também pode ser mudado no arquivo .env
 
-##Para acessar o server em execução:
+## Para acessar o server em execução:
 (note que a API necessita da lista de itens **i** para operar, e a lista **i**
 deve ser composta de até 3 ingredientes **em inglês**)
 
