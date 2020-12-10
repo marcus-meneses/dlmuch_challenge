@@ -1,8 +1,7 @@
-# Teste Delivery Much
+# Docker container with nodejs
 
-Olá, esse é o teste solicitado como prova técnica para a vaga de dev
-Oferecida pelo Delivery Much. Seguem instruções de execução tanto
-utilizando Docker quanto para execução direta do código.
+Esse repositório contém código nodejs acessando APIS externas. 
+Seguem instruções de execução tanto utilizando Docker quanto para execução direta do código.
 
 A aplicação foi desenvolvida utilizando nodeJS 12+ e npm, todas as demais
 dependências de código estão inseridas no arquivo package.json
